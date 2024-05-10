@@ -36,5 +36,7 @@ const calcNewVel = ({ vel, acc, time }) => {
 
 
 const initialParams = { vel: 10000, acc: 3, time: 3600, d: 0, fuel: 5000, fbr: 0.5 };
+const vel2 = calcNewVel(initialParams);
+
 
 
