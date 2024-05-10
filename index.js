@@ -29,7 +29,7 @@ console.log(`Corrected Remaining Fuel: ${rf} kg`);*/
 
 const calcNewVel = ({ vel, acc, time }) => {
   const velInMps = vel * 1000 / 3600; // Convert velocity from km/h to m/s
-  
+  const newVelInMps = velInMps + (acc * time); // Perform calculation in m/s
 };
 
 
