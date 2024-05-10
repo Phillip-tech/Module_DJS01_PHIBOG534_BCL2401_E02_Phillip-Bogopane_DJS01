@@ -40,5 +40,9 @@ const vel2 = calcNewVel(initialParams);
 const d2 = initialParams.d + (initialParams.vel * initialParams.time / 3600);
 const rf = initialParams.fuel - (initialParams.fbr * initialParams.time);
 
+console.log(`Corrected New Velocity: ${vel2} km/h`);
+console.log(`Corrected New Distance: ${d2} km`);
+console.log(`Corrected Remaining Fuel: ${rf} kg`);
+
 
 
