@@ -28,7 +28,7 @@ console.log(`Corrected New Distance: ${d2} km`);
 console.log(`Corrected Remaining Fuel: ${rf} kg`);*/
 
 const calcNewVel = ({ vel, acc, time }) => {
-  
+  const velInMps = vel * 1000 / 3600; // Convert velocity from km/h to m/s
   
 };
 
