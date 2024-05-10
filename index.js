@@ -34,17 +34,21 @@ const calcNewVel = ({ vel, acc, time }) => {
 
 };
 
-
+try {
 const initialParams = { vel: 10000, acc: 3, time: 3600, d: 0, fuel: 5000, fbr: 0.5 };
 const vel2 = calcNewVel(initialParams);
 const d2 = initialParams.d + (initialParams.vel * initialParams.time / 3600);
 const rf = initialParams.fuel - (initialParams.fbr * initialParams.time);
 
+
 console.log(`Corrected New Velocity: ${vel2} km/h`);
 console.log(`Corrected New Distance: ${d2} km`);
 console.log(`Corrected Remaining Fuel: ${rf} kg`);
 
+} catch (error) {
+
 console.error('An error occurred:', error);
 
+}
 
 
