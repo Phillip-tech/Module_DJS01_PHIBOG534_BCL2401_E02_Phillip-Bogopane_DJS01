@@ -5,7 +5,7 @@
  * 3. Make these calculations robust such that the calculation does not give an incorrect result, it throws an error to the user if something has gone wrong (parameter used with an incorrect unit of measurement, etc)
  */
 
-// Given Parameters
+/*// Given Parameters
 const vel = 10000; // velocity (km/h)
 const acc = 3; // acceleration (m/s^2)
 const time = 3600; // seconds (1 hour)
@@ -25,8 +25,12 @@ calcNewVel = (vel, acc, time) => {
 
 console.log(`Corrected New Velocity: ${vel2} km/h`);
 console.log(`Corrected New Distance: ${d2} km`);
-console.log(`Corrected Remaining Fuel: ${rf} kg`);
+console.log(`Corrected Remaining Fuel: ${rf} kg`);*/
 
+const calcNewVel = ({ vel, acc, time }) => {
+  
+  
+};
 
 
 
